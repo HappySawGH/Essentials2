@@ -1,6 +1,6 @@
 //Maya ASCII 2025ff03 scene
 //Name: RoomSceneMINE.ma
-//Last modified: Fri, Mar 27, 2026 12:29:32 PM
+//Last modified: Fri, Mar 27, 2026 03:13:09 PM
 //Codeset: 1252
 file -rdi 1 -ns "organicUnit6" -rfn "organicUnit6RN" -op "v=0;" -typ "mayaAscii"
 		 "C:/Users/brenn/Documents/GitHub/Essentials2/DAGV1100and1200/Maya//assets/organicUnit6.ma";
@@ -31,21 +31,21 @@ fileInfo "product" "Maya 2025";
 fileInfo "version" "2025";
 fileInfo "cutIdentifier" "202512041342-b90de33065";
 fileInfo "osv" "Windows 11 Home v2009 (Build: 26200)";
-fileInfo "UUID" "B17DADD2-42E4-E9D5-E2CE-508763C4C08D";
+fileInfo "UUID" "3DDC580B-4C23-0D3D-1703-0DBB66BEE659";
 createNode transform -s -n "persp";
 	rename -uid "1C760D81-4B45-C2F6-77D8-00B47C6F8B95";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 5.3518350041311926 4.1384974110370143 0.71274971344055515 ;
-	setAttr ".r" -type "double3" -28.538352747887938 -644.19999999984884 6.4827943726653044e-15 ;
+	setAttr ".t" -type "double3" 5.3975054088292298 4.0267592910482 0.61742341795855871 ;
+	setAttr ".r" -type "double3" -36.338352747891825 -645.39999999980762 -1.1976958812331917e-14 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "8C1BA03A-4189-5999-D7D6-F6B97E7E91C5";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 7.085425521123903;
+	setAttr ".coi" 5.7815204338258823;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
-	setAttr ".tp" -type "double3" 0.51634662687767863 0.83232616117340763 1.2745273067129457 ;
+	setAttr ".tp" -type "double3" 1.2432436573358587 0.16235680319328838 -1.1806981947385857 ;
 	setAttr ".hc" -type "string" "viewSet -p %camera";
 createNode transform -s -n "top";
 	rename -uid "01BFEB0B-4055-F55B-4543-559FCC6296E6";
@@ -24580,7 +24580,7 @@ createNode reference -n "ChairRN";
 		"ChairRN"
 		"ChairRN" 0
 		"ChairRN" 118
-		2 "|Chair:Chair_Seat_Back|Chair:Chair_Seat_BackShape" "uvPivot" " -type \"double2\" 0.487956203520298 0.0082347253036230139"
+		2 "|Chair:Chair_Seat_Back|Chair:Chair_Seat_BackShape" "uvPivot" " -type \"double2\" 0.81019094586372375 0.49194987863302231"
 		
 		2 "|Chair:Chair_Seat_Back|Chair:Chair_Seat_BackShape" "uvSet[0].uvSetName" 
 		" -type \"string\" \"map1\""
@@ -28307,7 +28307,7 @@ createNode reference -n "bowlRN";
 		"bowlRN" 0
 		"bowlRN" 415
 		2 "|bowl:bowl_ACTUAL|bowl:revolvedSurface4|bowl:revolvedSurfaceShape4" "uvPivot" 
-		" -type \"double2\" 0.66667838155926828 0.61736136674880981"
+		" -type \"double2\" 0.58433321118354797 0.88786202669143677"
 		2 "|bowl:bowl_ACTUAL|bowl:revolvedSurface4|bowl:revolvedSurfaceShape4" "displayFacesWithGroupId" 
 		" 163"
 		2 "|bowl:bowl_ACTUAL|bowl:pCylinder8|bowl:pCylinderShape8" "uvPivot" " -type \"double2\" 0.38136949633493744 0.86256352066993713"
